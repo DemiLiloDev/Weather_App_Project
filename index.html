@@ -3,39 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/index.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1>Lilongwe</h1>
-      <p>
-        Tuesday 16:34, scattered clouds
-        <br />
-        Humidity: 66%, Wind: 3.3km/h
-      </p>
-      🌥️ 16°C
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Lilongwe</h1>
+          <p>
+            Tuesday 16:34, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.3km/h
+          </p>
+        </div>
+        <div>🌥️ 16°C</div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/DemiLiloDev" target="_blank"
-        >Demise Chipiliro Mnthambala</a
-      >, code hosted on
-      <a
-        href="https://github.com/DemiLiloDev/Weather_App_Project"
-        target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://codecraftweatherapp.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/DemiLiloDev" target="_blank"
+          >Demise Chipiliro Mnthambala</a
+        >, code hosted on
+        <a
+          href="https://github.com/DemiLiloDev/Weather_App_Project"
+          target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://codecraftweatherapp.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
