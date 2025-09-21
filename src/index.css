@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(150, 203, 255);
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.weather-app {
+  background: whitesmoke;
+  max-width: 600px;
+  margin: 80px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 14px;
+  padding: 30px;
+}
