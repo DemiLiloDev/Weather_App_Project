@@ -30,7 +30,7 @@ a {
 
 .weather-app-city {
   margin: 8;
-  font-size: 38px;
+  font-size: 42px;
   line-height: 48px;
 }
 
@@ -51,11 +51,11 @@ a {
 
 .weather-app-icon {
   font-size: 44px;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 .weather-app-temperature {
-  font-size: 88px;
+  font-size: 75px;
   margin-left: 10px;
   font-weight: bold;
 }
@@ -93,6 +93,6 @@ footer {
   border-top: 1px solid #a9d4fe;
   padding: 0 0 30px 0;
   text-align: center;
-  font-size: 11px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
