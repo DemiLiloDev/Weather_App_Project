@@ -51,17 +51,17 @@ a {
 
 .weather-app-icon {
   font-size: 44px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .weather-app-temperature {
-  font-size: 75px;
+  font-size: 80px;
   margin-left: 10px;
   font-weight: bold;
 }
 
 .weather-app-unit {
-  margin-top: 18px;
+  margin-top: 16px;
   font-size: 28px;
 }
 
