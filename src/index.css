@@ -7,12 +7,17 @@ body {
 }
 
 .weather-app {
-  background: whitesmoke;
+  background: rgba(255, 255, 255, 0.699);
   max-width: 600px;
   margin: 80px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 14px;
+  border-radius: 20px;
   padding: 30px;
+}
+
+.weather-app:hover {
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.2);
+  border: 2px solid #602fde;
+  transition: opacity 200ms ease-in-out;
 }
 
 main {
@@ -125,7 +130,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #a9d4fe;
+  background-color: #b4d9fe;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -141,6 +146,13 @@ header {
   border-radius: 8px;
   margin-left: 10px;
   color: whitesmoke;
+}
+
+.search-form-button:hover {
+  background: #602fde;
+  cursor: pointer;
+  transform: scale(1.2);
+  filter: contrast(90%);
 }
 
 footer {
